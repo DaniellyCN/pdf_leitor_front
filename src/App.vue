@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PdfChat/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PdfChat from './components/PdfChat.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PdfChat
   }
 }
 </script>
